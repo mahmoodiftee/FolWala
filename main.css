@@ -1,0 +1,11 @@
+body {
+    font-family: Lato, "serif";
+}
+
+.darken {
+    filter: brightness(60%);
+}
+
+.darkenXX {
+    filter: brightness(35%);
+}

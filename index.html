@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,21 +9,313 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
 
     <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Fol Wala</title>
 
 </head>
-<body>
+<body class="container mx-auto">
+
 <!--Navigation Bar-->
-<nav>
+<nav class="navbar bg-orange-600 mt-8 rounded-full px-12 text-white">
+<!--    Left Side-->
+    <ul class="navbar-start gap-7 text-lg font-medium">
+        <li><a href="#">Home</a> </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">All Fruits</a></li>
+    </ul>
+<!--    Middle-->
+    <div class="navbar-center">
+        <img src="assets/logo.png" alt="Site Logo">
+        <p class="text-4xl font-bold">&nbsp;&nbsp; Fol Wala</p>
+    </div>
+
+<!--    End-->
+    <div class="navbar-end relative">
+        <input type="text" placeholder="Search Fruits" class="input input-bordered w-96 rounded-full text-gray-700" />
+        <img src="assets/search.png" alt="Search Icon" class="absolute right-8">
+    </div>
+
 
 </nav>
 
 <!--Main Body-->
 <main>
-   <p class=""></p>
+<!--Carousel-->
+    <section>
+        <div class="main-container relative">
+            <div class="carousel w-full mt-12">
+
+                <!--        Carousel Item 1-->
+                <div id="slide1" class="carousel-item relative w-full">
+
+                    <img src="assets/carousel/banner1.png" class="w-full darken"  alt="Slide 1"/>
+                    <div class="absolute top-1/4 left-0 right-0 text-center ">
+                        <div class="text-white">
+                            <p class="text-8xl">Exotic tastes at your <br> doorstep</p>
+                            <p class="">We supply highly quality organic products</p>
+                            <button class="btn bg-orange-600 border-none text-white mt-8">Shop Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+
+                </div>
+
+
+                <!--        Carousel Item 2-->
+                <div id="slide2" class="carousel-item relative w-full">
+
+                    <img src="assets/carousel/banner2.png" class="w-full darken"  alt="Slide 2"/>
+                    <div class="absolute top-1/4 left-0 right-0 text-center">
+                        <div class="text-white">
+                            <p class="text-8xl">Sourced from rural area</p>
+                            <p class="">Freshness at it\'s best</p>
+                            <button class="btn bg-orange-600 border-none text-white mt-8">Shop Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+
+                </div>
+                <!--        Carousel Item 3-->
+                <div id="slide3" class="carousel-item relative w-full">
+
+                    <img src="assets/carousel/banner3.png" class="w-full darken"  alt="Slide 3"/>
+                    <div class="absolute top-1/4 left-0 right-0 text-center">
+                        <div class="text-white">
+                            <p class="text-8xl">Ideal for making Pickles</p>
+                            <p class="">The best in the Bangladesh</p>
+                            <button class="btn bg-orange-600 border-none text-white mt-8">Shop Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+
+                </div>
+                <!--        Carousel Item 4-->
+                <div id="slide4" class="carousel-item relative w-full">
+
+                    <img src="assets/carousel/banner4.png" class="w-full darken"  alt="Slide 4"/>
+                    <div class="absolute top-1/4 left-0 right-0 text-center">
+                        <div class="text-white">
+                            <p class="text-8xl">Every fruit in your dream</p>
+                            <p class="">We supply in all season</p>
+                            <button class="btn bg-orange-600 border-none text-white mt-8">Shop Now</button>
+                        </div>
+
+                    </div>
+
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="w-2/3 flex justify-around mx-auto bg-white absolute right-0 left-0 bottom-0 drop-shadow-md rounded transform translate-y-1/2 p-4">
+                <img src="assets/showcase/fruit1.png" alt="Fruit 1">
+                <img src="assets/showcase/fruit2.png" alt="Fruit 2">
+                <img src="assets/showcase/fruit3.png" alt="Fruit 3">
+                <img src="assets/showcase/fruit4.png" alt="Fruit 4">
+                <img src="assets/showcase/fruit5.png" alt="Fruit 5">
+            </div>
+
+        </div>
+    </section>
+
+<!--DOD-->
+<section class="mt-40 mb-20">
+<!--    Top-->
+    <div class="flex justify-between mb-20">
+<!--        Texts-->
+        <div>
+            <p class="text-3xl">Deal of the day</p>
+            <p class="text-xs w-1/2">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+
+
+<!--        Countdown-->
+        <div class="flex justify-between items-start">
+            <div>
+                <p class="text-5xl ">29</p>
+                <p class="text-sm text-center">Days </p>
+            </div>
+            <img src="assets/elipsis.png" alt="Indicator" class="object-contain mt-3">
+            <div>
+                <p class="text-5xl">15</p>
+                <p class="text-sm text-center">Hours</p>
+            </div>
+            <img src="assets/elipsis.png" alt="Indicator" class="object-contain mt-3">
+            <div>
+                <p class="text-5xl">25</p>
+                <p class="text-sm text-center">Minutes</p>
+            </div>
+            <img src="assets/elipsis.png" alt="Indicator" class="object-contain mt-3">
+            <div>
+                <p class="text-5xl">08</p>
+                <p class="text-sm text-center">Seconds</p>
+            </div>
+        </div>
+
+
+    </div>
+<!--    Cards-->
+    <div class="flex justify-between text-center">
+<!--        Card-->
+        <div class="py-10 border-solid border rounded px-20">
+            <img src="assets/deals/fruit1.png" alt="DOD" class="p-4">
+            <p class="p-4">12.90$ - 18.84$</p>
+            <hr>
+            <p class="pt-4">Apples</p>
+            <div class="rating rating-xs p-4">
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p>Details</p>
+        </div>
+    <!--        Card-->
+        <div class="py-10 border-solid border rounded px-20">
+            <img src="assets/deals/fruit1.png" alt="DOD" class="p-4">
+            <p class="p-4">12.90$ - 18.84$</p>
+            <hr>
+            <p class="pt-4">Apples</p>
+            <div class="rating rating-xs p-4">
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p>Details</p>
+        </div>
+    <!--        Card-->
+        <div class="py-10 border-solid border rounded px-20">
+            <img src="assets/deals/fruit1.png" alt="DOD" class="p-4">
+            <p class="p-4">12.90$ - 18.84$</p>
+            <hr>
+            <p class="pt-4">Apples</p>
+            <div class="rating rating-xs p-4">
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p>Details</p>
+        </div>
+    <!--        Card-->
+        <div class="py-10 border-solid border rounded px-20">
+            <img src="assets/deals/fruit1.png" alt="DOD" class="p-4">
+            <p class="p-4">12.90$ - 18.84$</p>
+            <hr>
+            <p class="pt-4">Apples</p>
+            <div class="rating rating-xs p-4">
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+            </div>
+            <p>Details</p>
+        </div>
+
+    </div>
+
+    <!--    Button-->
+    <button class="btn bg-orange-600 border-none text-white mt-8 absolute left-1/2 transform -translate-x-1/2">Shop All</button>
+</section>
+
+
+<!--    Meet the team-->
+    <section>
+        <div class="mt-40 relative">
+            <img src="assets/team/team_banner.png" class="darkenXX w-full">
+            <div class="absolute top-1/4 left-0 right-0 text-center ">
+                <div class="text-white">
+                    <p class="text-5xl">Meet the team</p>
+                    <p class="">The workforce behind these amazing services</p>
+                </div>
+                <!--                Cards-->
+                <div class="flex justify-between w-1/2 mt-8 mx-auto">
+
+                    <div class="text-white">
+                        <img src="assets/team/member1.png">
+                        <p class="mt-2">Awlad Hossain</p>
+                        <p class="text-xs my-2">Fruit Expert</p>
+                        <div class="flex justify-center gap-3">
+                            <img src="assets/brand/facebook.png" alt="Team Fb">
+                            <img src="assets/brand/twitter.png" alt="Team Tw">
+                            <img src="assets/brand/linkedin.png" alt="Team Li">
+                        </div>
+                    </div>
+
+                    <div class="text-white">
+                        <img src="assets/team/member2.png">
+                        <p class="mt-2">Safia Chowdhury</p>
+                        <p class="text-xs my-2">Fruit Expert</p>
+                        <div class="flex justify-center gap-3">
+                            <img src="assets/brand/facebook.png" alt="Team Fb">
+                            <img src="assets/brand/twitter.png" alt="Team Tw">
+                            <img src="assets/brand/linkedin.png" alt="Team Li">
+                        </div>
+                    </div>
+
+                    <div class="text-white">
+                        <img src="assets/team/member3.png">
+                        <p class="mt-2">Rakib Khan</p>
+                        <p class="text-xs my-2">Fruit Expert</p>
+                        <div class="flex justify-center gap-3">
+                            <img src="assets/brand/facebook.png" alt="Team Fb">
+                            <img src="assets/brand/twitter.png" alt="Team Tw">
+                            <img src="assets/brand/linkedin.png" alt="Team Li">
+                        </div>
+                    </div>
+
+
+                    <div class="text-white">
+                        <img src="assets/team/member4.png">
+                        <p class="mt-2">Chaity</p>
+                        <p class="text-xs my-2">Fruit Expert</p>
+                        <div class="flex justify-center gap-3">
+                            <img src="assets/brand/facebook.png" alt="Team Fb">
+                            <img src="assets/brand/twitter.png" alt="Team Tw">
+                            <img src="assets/brand/linkedin.png" alt="Team Li">
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
 </main>
 
 <!--Footer-->
