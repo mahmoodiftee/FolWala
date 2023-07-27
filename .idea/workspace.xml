@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1304122f-2c3b-46e1-9aaf-2920f44348cb" name="Changes" comment="Upto Team">
+    <list default="true" id="1304122f-2c3b-46e1-9aaf-2920f44348cb" name="Changes" comment="Full Site without Responsiveness">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/wc/benefit.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/wc/benefit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/wc/fresh.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/wc/fresh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/wc/gift.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/wc/gift.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/wc/supplier.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/wc/supplier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/wc/sustain.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/wc/sustain.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/wc/team.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/wc/team.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +71,7 @@
       <workItem from="1690466743994" duration="740000" />
       <workItem from="1690467652117" duration="84000" />
       <workItem from="1690467738332" duration="349000" />
-      <workItem from="1690468095162" duration="10929000" />
+      <workItem from="1690468095162" duration="11889000" />
     </task>
     <task id="LOCAL-00001" summary="CNS Setup with PhpStorm">
       <option name="closed" value="true" />
@@ -95,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690477077973</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Full Site without Responsiveness">
+      <option name="closed" value="true" />
+      <created>1690479157506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690479157506</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +106,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CNS Setup with PhpStorm" />
     <MESSAGE value="Upto Team" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upto Team" />
+    <MESSAGE value="Full Site without Responsiveness" />
+    <option name="LAST_COMMIT_MESSAGE" value="Full Site without Responsiveness" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
